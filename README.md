@@ -1,1 +1,1 @@
-[jufaintermedia.com/keograminfo](https://jufaintermedia.com/keograminfo)
+[jufaintermedia.com/keogramistinfo](https://jufaintermedia.com/keogramistinfo)
