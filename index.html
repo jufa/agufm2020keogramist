@@ -13,6 +13,7 @@
       --hilite: gold
     }
     body {
+      box-sizing: border-box;
       font-family: 'Roboto Condensed', sans-serif;
       background-color: #222;
       color: #ddd;
@@ -60,6 +61,7 @@
     }
 
     img {
+      box-sizing: border-box;
       display: block;
       max-width: 100%;
       max-height: 400px;
@@ -73,16 +75,19 @@
       max-width: 600px;
       width: auto;
       height: auto;
-      margin: 0 auto;
-      padding-bottom: 40px;
+      margin: 20px auto;
+      background-color: #555;
+      box-shadow: 0px 5px 10px #444;
     }
     figure img {
       margin-bottom: 20px;
     }
     figcaption {
-      line-height: 1.5em;
+      line-height: 1.2em;
       max-width: 500px;
       font-style: italic;
+      font-size: 0.9em;
+      padding: 0 20px 20px 20px;
     }
     li {
       margin-bottom: 1em; 
@@ -101,6 +106,7 @@
       padding: 20px;
       background-color: #444;
       margin: 0 auto;
+      box-shadow: 0px 0px 20px #000;
     }
     .authors {
       display: block;
@@ -151,7 +157,7 @@
         <iframe class="video-embed" src="https://www.youtube.com/embed/BFbtJovC7XQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       <p class="big-link"><a href="https://www.youtube.com/watch?v=BFbtJovC7XQ">Watch a video walkthrough of Keogramist here</a></p>
-      <p><a href="https://keogramist.com" target="pipeline"><img src="./image/app4.jpg"/></a></p>
+      <p><a href="https://keogramist.com" target="pipeline"><img loading=lazy src="./image/app4.jpg"/></a></p>
       <p class="big-link"><a href="https://keogramist.com" target="pipeline">Try the Keogramist app here</a></p>
      
       <h2>Abstract</h2>
@@ -166,38 +172,38 @@
         <li>Allow the user to look around this virtual environment, access specific moments of the nights activity, and share specific moments with others using a standard URL</li>
       </ul>
       <figure>
-        <img src="./image/asi-annotated.jpg"/>
+        <img loading=lazy src="./image/asi-annotated.jpg"/>
         <figcaption>A typical All-Sky camera for automated monitoring of aurora. Although many cameras are designed specifically to gather calibrates, wavelength filtered data, some are used as outreach and education tools, using standard consumer fish-eye lenses and digital SLRs imaging on Bayer-pattern RGB sensors. This public facing data is often compressed into lossy timelapse video, since specific calibrated measurements are not needed.</figcaption>
       </figure>
       <figure>
-        <img src="./image/all_sky_camera_animated_640x480.gif"/>
+        <img loading=lazy src="./image/all_sky_camera_animated_640x480.gif"/>
         <figcaption>All sky camera view of aurora substorm overhead in Yellowknife, NWT (AuroraMAX). While an all-sky camera timelapse is intriguing, it is not the same for a viewer as being in the presence of aurora and using their own intuition (eyes, ability to pivot and look around)</figcaption>
       </figure>
       <figure>
-        <img src="./image/planetarium.jpg"/>
+        <img loading=lazy src="./image/planetarium.jpg"/>
         <figcaption>Inspiration: ASC camera data can be reprojected to make a more immersive experience, as planetariums discovers a long time ago</figcaption>
       </figure>
       <figure>
-        <img src="./image/enterdome.gif"/>
+        <img loading=lazy src="./image/enterdome.gif"/>
         <figcaption>Early prototype: what if we make a virtual online planetarium to make existing aurora ASC timelapses more immersive, using the same projection concept? This animation shows a viewpoint of walking into such a virtual space from the outside. The projected video can be seen on both inside and outside surface of the dome for debugging</figcaption>
       </figure>
       
       <h3>Keograms as an 'accessible' visual index of night sky activity</h3>
       <figure>
-        <img src="./image/keogram_animation_480x720_128f 100ms.gif"/>
+        <img loading=lazy src="./image/keogram_animation_480x720_128f 100ms.gif"/>
         <figcaption>"Keograms" stack the center column of consecutive ASC frame from left-to-right in an image, to give an overview of an entire night's sky activity at a glance, rather than parsing through hours of video</figcaption>
       </figure>
       <figure>
-        <img src="./image/keogram_annotated_a_20200525a.jpg"/>
+        <img loading=lazy src="./image/keogram_annotated_a_20200525a.jpg"/>
         <figcaption>The relation of a keogram to the all sky camera and time of night is intuitive enough to be understood with a little instruction</figcaption>
       </figure>
       <figure>
-        <img src="./image/keogram_annotated_c_20200525a.jpg"/>
+        <img loading=lazy src="./image/keogram_annotated_c_20200525a.jpg"/>
         <figcaption>Citizen scientists and those interested in aurora have shown in a survey to readily understand keogram relationships to 'interesting' nights of aurora activity</figcaption>
       </figure>
 
       <h2>Implementation and performance</h2>
-      <p><a href="pipeline.html"><img src="./image/pipeline_1000p.jpg"/></a></p>
+      <p><a href="pipeline.html"><img loading=lazy src="./image/pipeline_1000p.jpg"/></a></p>
       <p class="big-link"><a href="pipeline.html">Enlarge workflow diagram</a></p>
 
       <h3>Keogram & metadata generation</h3>
@@ -247,7 +253,7 @@
         <li>A significant number of users did not read the introduction or instructions, leading to some confusion later on (i.e. asking for features that were discussed in the onboarding) . This indicated that any guidance or instructions should be inline and cue the user, rather than front load context or direction</li>
       </ul>
       <figure>
-        <img src="./image/surveyresults.png"/>
+        <img loading=lazy src="./image/surveyresults.png"/>
         <figcaption>Survey results from Alberta Aurora Chasers Facebook Group and Royal Astronomical Society of Canada (Ottawa) volutneers. Not reading the directions is a common issue in web-based interactives, so inline-familiarization is often prefereable. Most respondents answered they would use the app again or share it.</figcaption>
       </figure>
       
