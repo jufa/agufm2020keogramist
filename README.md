@@ -8,7 +8,7 @@ A: required: some basic HTML familiarity, desirable: Some CSS familiarity, a web
 Q: Why not use a static site generator?\
 A: The learing curve for those that understand XMLish stuff and don't want to get all command line-y
 
-Q: Why note use Github pages?
+Q: Why note use Github pages?\
 A: Yes that sounds like a good idea: [here's the instructions](https://guides.github.com/features/pages/)
 
 Q: Why not use a WordPress site or PowerPoint HTML export or something\
