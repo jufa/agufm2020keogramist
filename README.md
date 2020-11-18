@@ -15,4 +15,7 @@ A: Wat
 Q: What was the "inspiration"?
 A: An ePoster WYSIWYG tool for a recent conference kept deleting content, timing out, made me sad, also had no mobile layouts for posters.
 
+Q: Warranty, support, liability etc.?
+A: none taken, use at your own risk
+
 demo: [jufaintermedia.com/keogramistinfo](https://jufaintermedia.com/keogramistinfo)
