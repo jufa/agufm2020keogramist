@@ -2,6 +2,9 @@
 
 demo: [jufaintermedia.com/keogramistinfo](https://jufaintermedia.com/keogramistinfo)
 
+Q: Why a single page, single file HTML site with minimal JS, is this 1993?
+A: HTML was designed for this sort of thing. Simply, Zen, get stuff done.
+
 Q: What skills do I need to use this?\
 A: required: some basic HTML familiarity, desirable: Some CSS familiarity, a web server on which to deploy.
 
