@@ -2,7 +2,7 @@
 
 demo: [jufaintermedia.com/keogramistinfo](https://jufaintermedia.com/keogramistinfo)
 
-Q: Why a single page, single file HTML site with minimal JS, is this 1993?
+Q: Why a single page, single file HTML site with minimal JS, is this 1993?\
 A: HTML was designed for this sort of thing. Simply, Zen, get stuff done.
 
 Q: What skills do I need to use this?\
@@ -12,10 +12,10 @@ Q: Why not use a static site generator?\
 A: The learing curve for those that understand XMLish stuff and don't want to get all command line-y
 
 Q: Why note use Github pages?\
-A: Yes that sounds like a good idea: [here's the instructions](https://guides.github.com/features/pages/)
+A: Yes you could as well as an alternative if you are comfy with github: [here's the instructions](https://guides.github.com/features/pages/)
 
 Q: Why not use a WordPress site or PowerPoint HTML export or something\
-A: Go for it, I bet that would work great for lots of people.
+A: Go for it, I bet that would work great for lots of people who are familiar with that. Unlike PowerPoint HTML, this is mobile friendly
 
 Q: Why not make an auto LaTeX to HTML conversion for my paper?\
 A: If you are asking this, you should def try it.
