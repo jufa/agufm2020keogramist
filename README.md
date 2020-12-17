@@ -36,5 +36,5 @@ Q: Warranty, support, liability etc.?\
 A: None. Use at your own risk
 
 Q: Why is this even on github?\
-A: Green squares?
+A: The conference poster presentation WYSIWYG software provided for a conference was not mobile friendly, not stable, and looked like 1999.
 
