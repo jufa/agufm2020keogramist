@@ -24,7 +24,7 @@ Q: Why not just upload a PDF or JPG of my poster?\
 A: embed of media like gifs, youtube etc, also does not reflow nicely between screen sizes
 
 Q: Does this template include header META tags or JS scripts for searchability, indexibility, favicons, sharing etc?\
-A: No, you will have to add those sorts of metatags, analytics, social media links yourself.
+A: No, you will have to add those sorts of metatags, analytics, social media links yourself.Try [this website](https://www.metatags.org/seo-tips/why-use-meta-tags/metatags-generator/) to generate all your META data
 
 Q: What was the "inspiration"?\
 A: An ePoster WYSIWYG tool for a recent conference kept deleting content, timing out, made me sad, also had no mobile layouts for posters.
